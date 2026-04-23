@@ -1,12 +1,7 @@
 {
   "version": 2,
   "rewrites": [
-    { "source": "/polls/(.*)", "destination": "/backend/server.js" },
-    { "source": "/(.*)", "destination": "/frontend/$1" }
-  ],
-  "functions": {
-    "backend/server.js": {
-      "runtime": "vercel-node@latest"
-    }
-  }
+    { "source": "/polls/(.*)", "destination": "/api/index.js" },
+    { "source": "/polls", "destination": "/api/index.js" }
+  ]
 }
