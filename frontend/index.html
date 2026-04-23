@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoteNow — Simple & Powerful Polling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+        VoteNow
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="polls.html" class="nav-link">Browse Polls</a>
+        <a href="create.html" class="nav-link">Create Poll</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>The simplest way to gather opinions.</h1>
+      <p>Create real-time polls in seconds. No account needed, just share and get results instantly.</p>
+      <div style="margin-top: 2.5rem; display: flex; gap: 1rem; justify-content: center;">
+        <a href="create.html" class="btn btn-primary">Start a Poll</a>
+        <a href="polls.html" class="btn btn-secondary">View Live Polls</a>
+      </div>
+    </div>
+
+    <div style="display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 4rem;">
+      <div class="card">
+        <div style="color: var(--primary); margin-bottom: 1rem;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        </div>
+        <h3 style="margin-bottom: 0.5rem;">Secure & Private</h3>
+        <p style="color: var(--text-dim); font-size: 0.95rem;">One vote per person ensured by intelligent browser tracking.</p>
+      </div>
+      <div class="card">
+        <div style="color: var(--primary); margin-bottom: 1rem;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+        </div>
+        <h3 style="margin-bottom: 0.5rem;">Real-time Results</h3>
+        <p style="color: var(--text-dim); font-size: 0.95rem;">Watch the bars move as people cast their votes live.</p>
+      </div>
+      <div class="card">
+        <div style="color: var(--primary); margin-bottom: 1rem;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+        </div>
+        <h3 style="margin-bottom: 0.5rem;">Easy Creation</h3>
+        <p style="color: var(--text-dim); font-size: 0.95rem;">Launch your question with up to 4 options in under a minute.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer style="margin-top: 6rem; padding: 4rem 2rem; border-top: 1px solid var(--border); text-align: center; color: var(--text-muted); font-size: 0.85rem;">
+    <p>&copy; <span id="year"></span> VoteNow. All rights reserved.</p>
+    <p style="margin-top: 0.5rem; font-weight: 600; color: var(--text-dim);">Created by Lokesh Daripalli</p>
+    <div style="margin-top: 1rem; display: flex; gap: 1.5rem; justify-content: center;">
+      <a href="privacy.html" style="color: var(--primary);">Privacy Policy</a>
+      <a href="terms.html" style="color: var(--primary);">Terms of Service</a>
+    </div>
+  </footer>
+
+</body>
+</html>
