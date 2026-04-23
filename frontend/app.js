@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/polls';
+const API_URL = '/polls';
 
 // DOM Elements
 const form = document.getElementById('create-poll-form');
