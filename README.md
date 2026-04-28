@@ -29,13 +29,13 @@ The design adopts a premium, sleek dark-mode aesthetic with vibrant accent color
 ## Project Structure
 ```
 /poll-app
-├── backend/
-│   ├── package.json
-│   └── server.js
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── app.js
+├── api/
+│   └── index.js
+├── index.html
+├── style.css
+├── app.js
+├── vercel.json
+├── package.json
 └── README.md
 ```
 
@@ -44,18 +44,16 @@ The design adopts a premium, sleek dark-mode aesthetic with vibrant accent color
 ### Prerequisites
 - [Node.js](https://nodejs.org/) installed on your machine.
 
-### 1. Start the Backend
-1. Open a terminal and navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
-2. Install dependencies:
+### 1. Installation
+1. Install dependencies:
    ```bash
    npm install
    ```
-3. Start the server:
+
+### 2. Run Locally
+1. Start the server for local development:
    ```bash
-   npm start
+   node api/index.js
    ```
    *The server will run on `http://localhost:3000`*
 
